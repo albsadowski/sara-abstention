@@ -1,0 +1,24 @@
+[project]
+name = "sara-abstention"
+version = "0.1.0"
+description = "Abstention Experiment on SARA Dataset"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv",
+    "langchain-community",
+    "langchain-experimental",
+    "langchain-google-genai",
+    "langchain-mistralai",
+    "langchain[anthropic,fireworks,openai]",
+    "langgraph",
+    "pandas",
+    "scipy",
+    "pydantic",
+    "ruff",
+    "tqdm",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
